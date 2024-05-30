@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "description": "Proactive security for ongoing transactions provided by Lossless Aegis",
+  "proposedName": "Lossless Aegis Snap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "2knTVJxyDula6ZXiDMxw+8aYNDRL82O+MRJUxj0Qtvk=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "snap",
+        "iconPath": "images/losslessLogo.svg",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "endowment:lifecycle-hooks": {},
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    },
+    "snap_dialog": {},
+    "snap_manageState": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "manifestVersion": "0.1"
+}
