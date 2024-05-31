@@ -4,14 +4,14 @@
   "proposedName": "Lossless Aegis Snap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/Lossless-Cash/aegis-snap.git"
   },
   "source": {
     "shasum": "2knTVJxyDula6ZXiDMxw+8aYNDRL82O+MRJUxj0Qtvk=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "packageName": "snap",
+        "packageName": "aegis-snap",
         "iconPath": "images/losslessLogo.svg",
         "registry": "https://registry.npmjs.org/"
       }
