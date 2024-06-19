@@ -1,13 +1,13 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Proactive security for ongoing transactions provided by Lossless Aegis",
-  "proposedName": "Lossless Aegis Snap",
+  "proposedName": "Lossless Aegis Insights",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lossless-Cash/aegis-snap.git"
   },
   "source": {
-    "shasum": "k/hO7qtvcvz7QzNvoq4FOEvHAi+PD32zeUnOOvap4i4=",
+    "shasum": "9J6t1a9rjEyZQ2LxdXoJQb+ZT08ZOqEcsfUBsj5qSds=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
