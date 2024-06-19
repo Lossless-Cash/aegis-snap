@@ -1,7 +1,7 @@
 {
   "name": "aegis-snap",
   "version": "0.1.0",
-  "description": "The 'Hello, world!' of MetaMask Snaps, now written in TypeScript.",
+  "description": "Proactive security for ongoing transactions provided by Lossless Aegis",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lossless-Cash/aegis-snap.git"
