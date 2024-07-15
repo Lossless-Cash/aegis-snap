@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "description": "Proactive security for ongoing transactions provided by Lossless Aegis",
+  "proposedName": "Lossless Aegis Insights",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lossless-Cash/aegis-snap.git"
+  },
+  "source": {
+    "shasum": "guDDy0ymrUp41EtgxphV7X4S0aoUnrHwEz8DAv+yfqg=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "aegis-snap",
+        "iconPath": "images/losslessLogo.svg",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "endowment:lifecycle-hooks": {},
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    },
+    "snap_dialog": {},
+    "snap_manageState": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "manifestVersion": "0.1"
+}
