@@ -26,8 +26,10 @@
     "snap_dialog": {},
     "snap_manageState": {},
     "endowment:rpc": {
-      "dapps": true,
-      "snaps": false
+        "allowedOrigins": [
+          "https://aegis.lossless.io",
+          "https://aegis-api.lossless.io"
+      ]
     }
   },
   "manifestVersion": "0.1"
